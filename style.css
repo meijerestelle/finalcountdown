@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d0a30;
+    background-image: url('https://static.wixstatic.com/media/86318f_65f627a9f73840fdb942dd5353e68487~mv2.jpeg/v1/fill/w_960,h_1047,al_c,q_85/Final%20Countdown%20(LOGO%20THUMB).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #1d0a30;
+    text-shadow:  0px 0px 3px #fff;
+}
