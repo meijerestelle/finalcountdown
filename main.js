@@ -1,5 +1,8 @@
 var d = new Date("Sep 13, 2021 17:30:00").getTime();
 
+var countdown = document.getElementById('countdown');
+var invisible = document.getElementById('invisible');
+
 console.log(d);
 
 var x = setInterval(function() {
@@ -16,6 +19,7 @@ var x = setInterval(function() {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById('countdown').innerHTML = string.link('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        $(countdown).hide();
+        $(invisible).show();
     }
 });

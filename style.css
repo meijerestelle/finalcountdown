@@ -31,3 +31,7 @@ h1 {
     color: #1d0a30;
     text-shadow:  0px 0px 3px #fff;
 }
+
+#invisible {
+    display: none;
+}
